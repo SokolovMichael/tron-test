@@ -1,0 +1,61 @@
+.page {
+  font-family: "Libre Baskerville", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $base-dark-color;
+  min-width: $mobile-width-only;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+
+  @media (min-width: $mobile-width-only) {
+    overflow-x: hidden;
+  }
+}
+
+.page__body--not-scroll {
+  overflow-y: hidden;
+}
+
+.page__wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 0.01rem 0.2rem 0.05rem $light-color-type-2;
+  min-height: 50px;
+  background: $background-color-type-1;
+  padding: 0 8px;
+
+  @media (min-width: $min-desktop-width) {
+    background: $base-light-color;
+    min-height: 63px;
+    padding: 8px;
+  }
+}
+
+.page__header--nojs {
+  position: static;
+  padding-bottom: 0;
+}
+
+.page__main {
+  flex: 1 1 auto;
+  margin: 0 auto;
+
+  @media (min-width: $desktop-width) {
+    width: 1134px;
+  }
+}

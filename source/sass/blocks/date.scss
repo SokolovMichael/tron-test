@@ -1,0 +1,28 @@
+.date {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.date h3 {
+  font-size: 20px;
+  line-height: 29px;
+  color: $dark-color-type-2;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.date__full {
+  color: $background-color-type-1;
+}
+
+.date__part {
+  position: relative;
+}
+
+.date__part:not(:last-child)::after {
+  content: ".";
+  position: absolute;
+  right: -5px;
+  bottom: -3px;
+}

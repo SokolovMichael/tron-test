@@ -1,0 +1,49 @@
+.toggles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 16px 30px;
+  box-sizing: border-box;
+}
+
+.toggles__link {
+  width: 113px;
+  height: 47px;
+}
+
+.toggles__logo {
+  fill: $base-light-color;
+  width: 100%;
+  height: 100%;
+}
+
+.toggles__close {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.toggles__close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 28px;
+  height: 28px;
+  transform: rotate(45deg);
+}
+
+.toggles__close:hover .toggles__close-icon,
+.toggles__close:focus-visible .toggles__close-icon {
+  opacity: 0.6;
+}
+
+.toggles__close:active .toggles__close-icon {
+  opacity: 1;
+}

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/futuraptregular.woff2") format("woff2"),
+    url("../fonts/futuraptregular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/futuraptbold.woff2") format("woff2"),
+    url("../fonts/futuraptbold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/librebaskervilleregular.woff2") format("woff2"),
+    url("../fonts/librebaskervilleregular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/librebaskervillebold.woff2") format("woff2"),
+    url("../fonts/librebaskervillebold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/robotobold.woff2") format("woff2"),
+    url("../fonts/robotobold.woff") format("woff");
+  font-display: swap;
+}

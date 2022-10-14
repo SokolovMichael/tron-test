@@ -1,0 +1,40 @@
+button {
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="tel"],
+input[type="submit"] {
+  border-radius: 0;
+}

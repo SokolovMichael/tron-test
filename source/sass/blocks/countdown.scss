@@ -1,0 +1,21 @@
+.countdown {
+  display: flex;
+  margin: 0 auto;
+  width: 70px;
+  justify-content: space-between;
+  color: $background-color-type-1;
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 700;
+}
+
+.countdown__time {
+  position: relative;
+}
+
+.countdown__time:not(:last-child)::after {
+  content: ":";
+  position: absolute;
+  right: -12px;
+  top: -2px;
+}

@@ -1,0 +1,17 @@
+.link-list {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.link-list__item:hover a {
+  opacity: 0.6;
+}
+
+.link-list__item:active a {
+  opacity: 1;
+}
+
+.link-list__item a {
+  color: $base-light-color;
+  padding: 5px;
+}
